@@ -1,0 +1,20 @@
+{
+  "name": "viverra",
+  "version": "0.0.0",
+  "description": "MongoDB abstraction",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Aleksandr Chazov",
+    "email": "develop@chazer.ru>"
+  },
+  "files": [
+    "dist/",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "tsc -p . && mocha"
+  },
+}
