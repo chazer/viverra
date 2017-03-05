@@ -1,15 +1,22 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
+    "module": "CommonJS",
+    "target": "ES5",
+    "moduleResolution" : "Node",
     "declaration": true,
     "experimentalDecorators": true,
     "noImplicitAny": false,
     "preserveConstEnums": true,
     "removeComments": false,
     "sourceMap": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+//    "rootDirs": ["lib"],
     "typeRoots": [
       "node_modules/@types"
-    ]
+    ],
+    "paths": {
+      "viverra/*": ["./index.ts"]
+    }
   }
 }
