@@ -17,4 +17,10 @@
   "scripts": {
     "test": "tsc -p . && mocha"
   },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/node": "^7.0.5",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1"
+  }
 }
